@@ -4,7 +4,7 @@ import { CoursesService } from "../../../services/courses.service";
 import { EnrollmentsService } from "../../../services/enrollments.service";
 import { StudentsService } from "../../../services/students.service";
 import { AuthorizationGuard } from "../../auth/authorization.guard";
-import { Enrollment } from "../models/enrollment";
+import { Enrollment } from "../models/enrollments";
 
 @Resolver(() => Enrollment)
 export class EnrollmentsResolver {
