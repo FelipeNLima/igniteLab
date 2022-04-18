@@ -20,7 +20,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
-    "test": "yarn docker:up && yarn prisma migrate deploy && jest -i"
+    "test": "npm run docker:up && yarn prisma migrate deploy && jest -i",
+    "test2": "jest"
   },
   "dependencies": {
     "@apollo/federation": "^0.36.1",
